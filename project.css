@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+body{
+    background-color: pink;
+    background-size: cover;
+}
+h1{
+    background-color:black;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    
+
+}
+.box{
+    margin-top: 5rem;
+}
+#a1{
+    width: 4rem;
+    height: 4rem;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+    
+}
+#a2{
+    width: 4rem;
+    height: 4rem;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+#a3{
+    width: 4rem;
+    height: 4rem;
+    border-bottom:4px solid black;
+    cursor: pointer;
+}
+#b1{
+    width: 4rem;
+    height: 4rem;
+    
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+#b2{
+    width: 4rem;
+    height: 4rem;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+#b3{
+    width: 4rem;
+    height: 4rem;
+    border-bottom:4px solid black;
+    cursor: pointer;
+}
+#c1{
+    width: 4rem;
+    height: 4rem;
+
+    border-right: 4px solid black;
+    cursor: pointer;
+}
+#c2{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    border-right: 4px solid black;
+}
+#c3{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.msgContainer{
+    margin-top: 5rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.msg{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    display: inline;
+}
+.yourScore,.compScore{
+    
+    margin-top: 5rem;
+    
+    font-size: 2rem ;
+    border: 5px double black;
+    border-style:double;
+    display: inline-block;
+    text-align: center;
+    
+    
+}    
+.yourScore{
+    gap: 2rem;
+    margin-left: 43vw;
+}
+.compScore{
+    gap: 2rem;
+}
