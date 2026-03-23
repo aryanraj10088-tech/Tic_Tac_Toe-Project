@@ -5,8 +5,8 @@
     
 }
 body{
-    background-color: pink;
-    background-size: cover;
+    background:linear-gradient(135deg,red,yellow,blue);
+    /* background-size: cover; */
 }
 h1{
     background-color:black;

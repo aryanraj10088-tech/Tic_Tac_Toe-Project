@@ -79,11 +79,11 @@ row.forEach((r) => {
     r.addEventListener("click", () => {
         if (odd === 1) {
             odd = 0;
-            const choiceplayer1 = r.getAttribute("id");
+            // const choiceplayer1 = r.getAttribute("id");
             r.innerText = "X";
         } else {
             odd = 1;
-            const choiceplayer2 = r.getAttribute("id");
+            // const choiceplayer2 = r.getAttribute("id");
             r.innerText = "O";
         }
         count++;
